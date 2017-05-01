@@ -95,7 +95,7 @@ class TweetManager:
 
 		if hasattr(tweetCriteria, 'topTweets'):
 			if tweetCriteria.topTweets:
-				url = "https://twitter.com/i/search/timeline?q=%s&src=typd&max_position=%s"
+				url = "https://twitter.com/i/search/timeline?q=%s&src=typd&max_position=%s&l=en"
 
 		url = url % (urllib.quote(urlGetData), refreshCursor)
 
